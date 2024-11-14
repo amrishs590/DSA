@@ -1,0 +1,25 @@
+#SideBar{
+    position: absolute;
+    background-color: black;
+    height: 730px;
+    width: 40px;
+    border-radius: 15px;
+    padding: 15px 6px 10px 11px;
+}
+
+.head-flex{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+#EditorIcon{
+    margin-left: 2px;
+}
+
+
+#foot-flex{
+    margin-top: 545px;
+}
