@@ -1,18 +1,21 @@
 #SideBar{
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     background-color: black;
-    height: 730px;
-    width: 40px;
+    height: 700px;
+    width: 50px;
     border-radius: 15px;
-    padding: 15px 6px 10px 11px;
+    padding: 25px 10px;
 }
 
 .head-flex{
     display: flex;
     flex-direction: column;
-    height: 140px;
+    height: 170px;
     justify-content: space-between;
-    padding: 2px;
+    padding: 5px;
 }
 
 #EditorIcon{
@@ -21,5 +24,5 @@
 
 
 #foot-flex{
-    margin-top: 545px;
+    margin-left: 6px
 }

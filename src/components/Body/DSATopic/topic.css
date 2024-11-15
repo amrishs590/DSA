@@ -1,0 +1,16 @@
+#Questions-div{
+    display: flex;
+    padding: 4px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, #90acd5, #cea8e1);
+    width: 450px;
+    height: 50px;
+    border-radius: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+#Questions-div h1{
+    margin: 0;
+}

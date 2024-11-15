@@ -1,0 +1,17 @@
+body{
+    background-color: #D3D7FE;
+    padding-left: 6px;
+}
+
+#SideBar-div{
+    position: relative;
+}
+
+#Body-div{
+    padding-left: 100px;
+}
+
+#Body-div{
+    display: flex;
+    justify-content: space-between;
+}

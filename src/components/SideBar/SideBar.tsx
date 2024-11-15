@@ -1,8 +1,8 @@
 import SettingsIcon from "./SettingsIcon"
 import HomeIcon from "./HomeIcon";
 import "./SideBar.css";
-import Dice from "../Images/Dice.png";
-import EditIcon from "../Images/EditIcon.jpg"
+import Dice from "../../Images/Dice.png";
+import EditIcon from "../../Images/EditIcon.jpg"
 
 const SideBar = () => {
   return (
@@ -10,7 +10,7 @@ const SideBar = () => {
       <div className="head-flex">
         <HomeIcon />
         <img src={Dice} alt="" />
-        <img src={EditIcon} alt=""/>
+        <img src={EditIcon} height="40px" alt=""/>
       </div>
 
       <div id="foot-flex">
